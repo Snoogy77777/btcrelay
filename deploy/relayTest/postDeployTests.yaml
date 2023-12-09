@@ -20,7 +20,7 @@
   call:
     computeMerkle:
       gas: 3000000
-      gas_price: 10000000000000
+      gas_price
       to: $RelayWithBulkStore
       sig: computeMerkle:[int256,int256,int256[]]:int256
       data:
@@ -44,7 +44,7 @@
   call:
     getBlockchainHead:
       gas: 3000000
-      gas_price: 10000000000000
+      gas_price: 10000000
       to: $RelayWithBulkStore
       sig: getBlockchainHead:[]:int256
 
@@ -53,7 +53,7 @@
   call:
     inMainChain:
       gas: 3000000
-      gas_price: 10000000000000
+      gas_price: 10000000
       to: $RelayWithBulkStore
       sig: inMainChain:[int256]:int256
       data:
@@ -64,7 +64,7 @@
 #   call:
 #     Store7Headers:
 #       gas: 3000000
-#       gas_price: 10000000000000
+#       gas_price: 1000000
 #       to: $BridgeWithBulkStore
 #       fun_name: bulkStoreHeader
 #       sig: si
@@ -77,7 +77,7 @@
   call:
     VerifyTx:
       gas: 3000000
-      gas_price: 10000000000000
+      gas_price: 100000000
       to: $RelayWithBulkStore
       sig: verifyTx:[int256,int256,int256[],int256]:int256
       data:
